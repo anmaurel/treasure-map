@@ -7,4 +7,4 @@ output data => output.txt
 npm run i
 npm run start
 npm run test
-```git initgit init
+```
