@@ -1,7 +1,7 @@
 ## Treasure map
 
-entry data => entry.txt
-output data => output.txt
+#### entry data => entry.txt
+#### output data => output.txt
 
 ```bash
 npm run i
