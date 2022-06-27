@@ -1,0 +1,27 @@
+{
+    "name": "treasure-map-carbonit",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --experimental-specifier-resolution=node index.js",
+        "dev": "nodemon --experimental-specifier-resolution=node index.js",
+        "format:fix": "prettier --write .",
+        "lint:fix": "eslint --fix .",
+        "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --verbose --coverage"
+    },
+    "author": "amaurel",
+    "license": "ISC",
+    "dependencies": {
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "eslint": "^8.18.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-jest": "^26.5.3",
+        "jest": "^28.1.1",
+        "nodemon": "^2.0.18",
+        "prettier": "^2.7.1"
+    }
+}
